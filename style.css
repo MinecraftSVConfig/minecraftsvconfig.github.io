@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+h1{
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: rgba(0,0,0,1.00);
+}
+h3{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2rem;
+}
+.center{
+	text-align: center;
+}
+button{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 17px;
+    font-size: 1.2rem;
+    border-radius: 82px;
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(0,255,51,1.00);
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px 22px rgba(0,0,0,1.00);
+    box-shadow: 0px 0px 22px rgba(0,0,0,1.00);
+}
+button:hover{
+    color: rgba(255,0,0,1.00);
+}
+p{
+	text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
