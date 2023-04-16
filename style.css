@@ -31,7 +31,12 @@ button:hover{
     color: rgba(255,0,0,1.00);
 }
 p{
-	text-align: center;
+    text-align: center;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
+    font-size: 1rem;
+}
+img{
+	max-width: 70%;
+	height: auto;
 }
