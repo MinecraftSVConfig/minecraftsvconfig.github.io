@@ -1,42 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+body{
+    margin: 1px;
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6d/Coarse_Dirt_%28texture%29_JE1_BE1.png/revision/latest?cb=20200919213937);
+    background-repeat: repeat;
+}
 h1{
     text-align: center;
-    font-family: 'Tilt Prism', cursive;
+    font-family: 'Alata', sans-serif;
     font-size: 3.5rem;
     font-weight: 100;
-    color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    text-shadow: 4px 4px 0px rgba(0,0,0,1.00);
+}
+h2{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 4px 4px 0px rgba(0,0,0,1.00);
 }
 h3{
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
     font-size: 2rem;
+    color: rgba(42,255,0,1.00);
+    text-shadow: 3px 3px rgba(0,0,0,1.00);
 }
 .center{
-	text-align: center;
-}
-button{
-    font-family: 'Rajdhani', sans-serif;
-    padding: 17px;
-    font-size: 1.2rem;
-    border-radius: 82px;
-    background-color: rgba(0,0,0,1.00);
-    color: rgba(0,255,51,1.00);
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px 22px rgba(0,0,0,1.00);
-    box-shadow: 0px 0px 22px rgba(0,0,0,1.00);
-}
-button:hover{
-    color: rgba(255,0,0,1.00);
+    text-align: center;
+    color: rgba(255,255,255,1.00);
 }
 p{
     text-align: center;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Alata', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 3px 3px rgba(0,0,0,1.00);
 }
 img{
 	max-width: 70%;
 	height: auto;
 }
+
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 95%;
+    max-width: 400px;
+    -webkit-box-shadow: 4px 4px 13px 1px rgba(43,43,43,1.00);
+    box-shadow: 4px 4px 13px 1px rgba(43,43,43,1.00);
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+.head_image{
+    max-width: 100%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
