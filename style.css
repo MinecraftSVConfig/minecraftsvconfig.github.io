@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
-body{
-    margin: 1px;
-    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6d/Coarse_Dirt_%28texture%29_JE1_BE1.png/revision/latest?cb=20200919213937);
-    background-repeat: repeat;
-}
+
 h1{
     text-align: center;
     font-family: 'Alata', sans-serif;
